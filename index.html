@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hotel booking</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chewy&family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        background-color: black;
+        padding: 20px;
+      }
+
+      .head ,.bottom{
+        font-family: "Poppins", sans-serif;
+        background-color: darkslategrey;
+        text-align: center;
+        color: white;
+        padding: 20px;
+        margin-top: 10px;
+      }
+      .room ,.room2,.room3,.room4,.room5{
+        background-color: white;
+        margin-top: 20px;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+      .img1,.img2,.img3,.img4,.img5 {
+        margin-right: 20px;
+        margin-bottom: 10px;
+        height: auto;
+        width: 100%;
+        max-width: 300px;
+        box-sizing: border-box;
+      }
+      .bottom a{
+        color: lightblue;
+      }
+      @media(max-width:600px){
+         .room ,.room2,.room3,.room4,.room5{
+          flex-direction: column;
+          align-items: center;
+         }
+         .img1,.img2,.img3,.img4,.img5 {
+          margin-right: 0;
+          margin-bottom: 15px;
+          width:90%;
+         }
+
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="head">
+      <h1>BlissfulBoutique Stays</h1>
+      <h2 style="color: bisque">Book your Room</h2>
+      <a href="form.html">
+        <button >For Booking</button>
+      </a>
+    </div>
+
+    <div class="room">
+      <div class="img1">
+        <img src="hotel1.jpg" alt="hotel image" />
+      </div>
+      <div class="info1">
+        <h2>Peace inn</h2>
+        <p>
+          A cozy and comfortable stay with elegant decor and modern facilities
+        </p>
+        <p>Situated on SH30, Nammakkal Thuraiyur Road, Musiri, Tamil Nadu, 621211.</p>
+        <p>⭐⭐⭐⭐</p>
+        <a href="form.html">
+        <button >Book Now</button>
+        </a>
+      </div>
+    </div>
+    <div class="room2">
+      <div class="img2">
+        <img src="hotel2.jpg" alt="hotel img" />
+      </div>
+      <div class="info2">
+        <h2>Black Nail</h2>
+        <p>Spacious room offering stunning city view and plush bedding</p>
+        <p>Found on Trichy Karur Main Road, Kulitalai, Tamil Nadu, 639104.</p>
+        <p>⭐⭐⭐⭐⭐</p>
+        <a href="form.html">
+        <button>Book Now</button>
+        </a>
+      </div>
+    </div>
+    <div class="room3">
+        <div class="img3">
+            <img src="hotel3.jpg" alt="hotel img">
+            </div>
+            <div class="info3">
+                <h2>The Park Chennai</h2>
+                <p>Minimalist design paired with maximum comfort and style</p>
+                <p>Located in Sandel Rock, Vazhavandhanadu, Tamil Nadu.</p>
+                <p>⭐⭐⭐</p>
+                 <a href="form.html">
+                <button>Book Now</button>
+                </a>
+           </div>
+    </div>
+    <div class="room4">
+        <div class="img4"> 
+            <img src="hotel4.jpg" alt="hotel img">
+        </div>
+            <div class="info4">
+            <h2>Red Stone Hotel</h2>
+            <p>Modern furnishing and a smart TV for your entertainment</p>
+            <p>Located in Sungagate, Kulitalai, Tamil Nadu, 639104.</p>
+            <p>⭐⭐⭐⭐⭐</p>
+             <a href="form.html">
+            <button>Book Now</button>
+            </a>
+        </div>
+    </div>
+    <div class="room5">
+        <div class="img5">
+            <img src="hotel5.jpg"  alt="hotel img"></div>
+            <div class="info5">
+             <h2>milky House </h2>
+             <p>Elegant suite with a private lounge and luxury amenities</p>
+             <p>Situated at No. 55, Punitha Complex, Bus Stand, Kulithalai, Karur, 639104.</p>
+             <p>⭐⭐⭐⭐</p>
+              <a href="form.html">
+             <button>Book now
+               
+             </button>
+             </a>
+            </div>
+    </div>
+    </div>
+    <div class="bottom">
+        <h1>Contact Us</h1>
+        <a href="#">
+            <p>instagram</p>
+            <p>Facebook</p>
+            <p>whatsapp</p>
+        </a>
+
+    </div>
+  </body>
+</html>

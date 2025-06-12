@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hotel booking</title>
+</head>
+<style>
+    body{
+        font-family: "Poppins", sans-serif;
+        background-color: black;
+    }
+    .form{
+        background-color: white;
+        color: black;
+        align-items: center;
+        padding: 20px;
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .head{
+        text-align: center;
+        background-color: darkslategrey;
+        color: white;
+        padding: 20px;
+        margin: 20px;
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+    }
+    .bottom{
+        background-color: darkslategrey;
+        color: white;
+        padding: 20px;
+        margin: 20px;
+        font-family: "Poppins", sans-serif;
+    }
+    .input{
+        border: none;
+        padding: 10px;
+        border-bottom: 2px solid black;
+
+        }
+        .select{
+            padding: 20px;
+            border: none;
+        }
+        .submit{
+            background-color: black;
+            color: white;
+        }
+        .button{
+        background-color: bisque;
+      }
+</style>
+<body>
+    <div class="head">
+    <h1>BOOK YOUR ROOM</h1>
+    <a href="index.html">
+    <button class="button">Home</button></a>
+    </div>
+    <div class="form">
+        <table>
+       <tr>
+        <td><label><b>Name:</label></b></td><td> <input type="text" placeholder="enter your name " class="input"></td>
+        </tr><br>
+        <tr>
+        <td><b><label>Days:</label></b></td>
+        <td>
+         <select class="select">
+            <option>1 days</option>
+            <option>2 days</option>
+            <option>3 days</option>
+            <option>4 days</option>
+            <option>more</option>
+        </select></td>
+        </tr><br>
+        <tr>
+        <td><b><label>Email:</label></b></td><td><input type="email" class="input" placeholder="enter your email"></td> 
+        </tr><br>
+        <tr>
+        <td><b><label>Address:</label></b></td>
+        <td><textarea placeholder="Address"></textarea></td>
+        </tr><br>
+        <tr>
+        <td><b><label>Payment:</label></b></td>
+        <td><select class="select">
+            <option>credit card</option>
+             <option>debit card</option>
+              <option>net banking</option>
+               <option>cash on arrival</option>
+        </select></td>
+        </tr><br>
+        <td></td><td></td><td ><a href="index.html"><input class="submit" type="submit"></td></a>
+</table>
+</div>
+<div class="bottom">
+    <h1>Location</h1>
+    <address>
+        BlissfulBoutique stay,<br>
+        104,TN nagar,<br>
+        Thambaram,<br>
+        Chennai,<br>
+        612789.
+
+    </address>
+
+</div>
+</body>
+</html>
